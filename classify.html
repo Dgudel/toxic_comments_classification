@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classify Comments</title>
+</head>
+<body>
+    <h2>Predicted Inappropriate Comments</h2>
+    <ul>
+        {% for comment in comments %}
+        <li>{{ comment }}</li>
+        {% endfor %}
+    </ul>
+
+     <ul>
+   <li> <a href="/">World Could from All Randomly Selected Comments</a></li>
+   <li> <a href="/classify_wordcloud">Word Cloud from Inappropriate Comments</a>
+</li>
+  <li> <a href="/classify_comment">Classify your Own Comments</a></li>
+
+     </ul>
+
+   </body>
+</html>
+
+
